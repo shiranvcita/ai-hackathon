@@ -25,6 +25,7 @@ input, button {
     color: #333;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    width: 25%;
 }
 
 input:focus, button:focus {
