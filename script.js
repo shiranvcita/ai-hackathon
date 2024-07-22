@@ -19,7 +19,7 @@ async function fetchHackathonIdeas() {
                 'Content-Type': 'application/json',
                 'Authorization': 'Bearer ' + businessToken
             },
-            body: JSON.stringify({ agent: 'vanilla', config: { window_size: 10 } })
+            body: JSON.stringify({ agent: 'vanilla', config: { window_size: 10 } , model: gpt-4 })
         });
         const chatData = await chatResponse.json();
         chatUID = chatData.data.uid;
